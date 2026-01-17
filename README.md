@@ -23,7 +23,7 @@ Los laboratorios se organizan en **subcarpetas independientes**, sin clasificaci
 ```text
 Cybersecurity/
 ├── fail2ban-basic/
-├── ...
+├── Linux-Hardening-Basic/
 └── README.md
 ```
 Cada carpeta corresponde a un laboratorio concreto, con su propia documentación y scripts.
@@ -32,7 +32,23 @@ Cada carpeta corresponde a un laboratorio concreto, con su propia documentación
 
 ## 🛡️ Laboratorios incluidos
 
-**🔐 fail2ban-basic**
+**🔐 linux-hardening-basic**
+
+Laboratorio de endurecimiento básico de sistemas Linux, orientado a reducir riesgos comunes en servidores expuestos.
+
+Incluye:
+
+- Hardening del servicio SSH
+
+- Configuración segura del firewall UFW
+
+- Aplicación del principio de mínima exposición.
+
+- Automatización mediante scripts Bash.
+
+- Generación de logs para auditoría.
+  
+**🛡️ fail2ban-basic**
 
 Configuración e implementación de [**Fail2Ban**](https://es.wikipedia.org/wiki/Fail2ban) para proteger el servicio SSH frente a ataques de fuerza bruta.
 
