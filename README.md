@@ -24,46 +24,13 @@ Los laboratorios se organizan en **subcarpetas independientes**, sin clasificaci
 Cybersecurity/
 ├── fail2ban-basic/
 ├── Linux-Hardening-Basic/
+├── Lynis-Audit-Basic
 └── README.md
 ```
 Cada carpeta corresponde a un laboratorio concreto, con su propia documentación y scripts.
+```
 
 ---
-
-## 🛡️ Laboratorios incluidos
-
-**🔐 linux-hardening-basic**
-
-Laboratorio de endurecimiento básico de sistemas Linux, orientado a reducir riesgos comunes en servidores expuestos.
-
-Incluye:
-
-- Hardening del servicio SSH
-
-- Configuración segura del firewall UFW
-
-- Aplicación del principio de mínima exposición.
-
-- Automatización mediante scripts Bash.
-
-- Generación de logs para auditoría.
-  
-**🛡️ fail2ban-basic**
-
-Configuración e implementación de [**Fail2Ban**](https://es.wikipedia.org/wiki/Fail2ban) para proteger el servicio SSH frente a ataques de fuerza bruta.
-
-Incluye:
-
-- Instalación automátizada.
-
-- Configuración de jail personalizada.
-
-- Pruebas de funcionamiento.
-
-- Logs y verificación.
-
----
-
 ## 🚀 Tecnologías utilizadas
 
 - Linux (Debian / Ubuntu)
