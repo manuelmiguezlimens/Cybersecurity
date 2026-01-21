@@ -28,7 +28,6 @@ Cybersecurity/
 └── README.md
 ```
 Cada carpeta corresponde a un laboratorio concreto, con su propia documentación y scripts.
-```
 
 ---
 ## 🚀 Tecnologías utilizadas
