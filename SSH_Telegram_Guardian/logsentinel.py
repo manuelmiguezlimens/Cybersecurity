@@ -4,8 +4,8 @@ import os
 import requests
 
 # --- CONFIGURACION ---
-token = "8890533126:AAHFcO2OF4GDdD3ZsfYLjCIte6_DU8jVdBI"
-chat_id = "8584471777"
+token = "BOT_TOKEN"
+chat_id = "USER_ID"
 archivo_log = "/var/log/auth.log"
 
 # --- FUNCION PARA ENVIAR EL MENSAJE A TELEGRAM ---
